@@ -37,8 +37,8 @@ dependencies {
     implementation('net.kyori:adventure-text-feature-pagination:4.0.0-SNAPSHOT') {
         exclude(module: 'adventure-api')
     }
-    compileOnly 'com.google.code.gson:gson:2.7'
-    compileOnly 'com.google.guava:guava:19.0'
+    implementation 'com.google.code.gson:gson:2.7'
+    implementation 'com.google.guava:guava:19.0'
     compileOnly 'org.checkerframework:checker-qual:3.44.0'
 
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.11.0-M2'

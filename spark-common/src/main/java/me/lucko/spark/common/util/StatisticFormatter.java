@@ -39,8 +39,8 @@ import static net.kyori.adventure.text.format.NamedTextColor.YELLOW;
 public enum StatisticFormatter {
     ;
 
-    private static final String BAR_TRUE_CHARACTER = "┃";
-    private static final String BAR_FALSE_CHARACTER = "╻";
+    private static final String BAR_TRUE_CHARACTER = "|";
+    private static final String BAR_FALSE_CHARACTER = "|";
 
     public static TextComponent formatTps(double tps) {
         TextColor color;

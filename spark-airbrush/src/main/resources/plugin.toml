@@ -1,0 +1,5 @@
+id = "spark"
+name = "Spark"
+description = "Port of Spark for Airbrush"
+version = "0.1.0"
+mainClass = "gg.airbrush.spark.Spark"

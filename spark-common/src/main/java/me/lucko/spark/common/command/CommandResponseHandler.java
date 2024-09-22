@@ -32,18 +32,15 @@ import java.util.function.Consumer;
 import java.util.stream.Collectors;
 
 import static net.kyori.adventure.text.Component.text;
-import static net.kyori.adventure.text.format.NamedTextColor.DARK_GRAY;
-import static net.kyori.adventure.text.format.NamedTextColor.GRAY;
-import static net.kyori.adventure.text.format.NamedTextColor.YELLOW;
+import static net.kyori.adventure.text.format.NamedTextColor.*;
 import static net.kyori.adventure.text.format.TextDecoration.BOLD;
 
 public class CommandResponseHandler {
-
-    /** The prefix used in all messages "&8[&e&l⚡&8] &7" */
+    /** The prefix used in all messages */
     private static final TextComponent PREFIX = text()
             .color(GRAY)
             .append(text("[", DARK_GRAY))
-            .append(text("⚡", YELLOW, BOLD))
+            .append(text("!", LIGHT_PURPLE, BOLD))
             .append(text("]", DARK_GRAY))
             .append(text(" "))
             .build();
